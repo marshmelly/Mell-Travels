@@ -14,10 +14,14 @@ h1, h2, h3 .heading {
   letter-spacing: 1px;
 }
 
-body, p .text .span {
+body, p .text  {
   font-family: "Merienda", sans-serif;
   font-weight: 400;
 
+}
+
+span {
+  font-family: "Oswald", sans-serif;
 }
 
 @layer utilities {
