@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #FAF6E9;
+  color: #000000;
+}
+
+h1, h2, h3 .heading {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body, p .text .span {
+  font-family: "Merienda", sans-serif;
+  font-weight: 400;
+
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    } 50%{
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s ease infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    } 100% {
+      transform: translateX(200%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 1.5s ease-in-out infinite;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
