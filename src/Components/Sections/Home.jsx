@@ -4,6 +4,7 @@ import LA from '../Images/Los Angeles.jpeg'
 import Paris from '../Images/Paris.jpeg'
 import Singapore from '../Images/Singapore.jpeg'
 import Nairobi from '../Images/Nairobi.jpeg'
+import Person from '../Images/Person.png'
 import { FaArrowRight, FaLocationArrow } from 'react-icons/fa'
 import { FaLocationPin } from 'react-icons/fa6'
 import { useNavigate } from 'react-router-dom'
@@ -101,11 +102,25 @@ const destinations = [
         </button>
       </div>
     </div>
-  ))}
+  ))}      
+    </div>
+    <br /><br />
 
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 h-[90vh]
+     bg-cover bg-center flex items-center justify-center"
+     style={{backgroundImage: `url(${Safari})`}}
+     >
+    
+        <h2 className='text-black items-center justify-start font-800 md:text-7xl py-3'>
+           Enjoy a Sunset With the Wild
+          </h2>  
 
+          
+        <p className='text-black items-center justify-end font-800 md:text-7xl py-3'>
+           With Some Of Our Finest Destinations
+          </p>   
+  
 
-      
     </div>
     
     
