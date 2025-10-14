@@ -6,6 +6,7 @@ import { MobileMenu } from './Components/MobileMenu';
 import { Home } from './Components/Sections/Home';
 import { Destinations } from './Components/Sections/Destinations';
 import { Contact } from './Components/Sections/Contact';
+import { Footer } from './Components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/destination' element={<Destinations />} />
       </Routes>
+
+      <Footer />
      </BrowserRouter>
       </div>
     

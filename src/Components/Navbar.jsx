@@ -28,19 +28,19 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         Home
                     </a>
 
-                    <a href="#destination" className="text-chili-300 hover:text-mindaro transition-colors">
+                    <a href="/destination" className="text-chili-300 hover:text-mindaro transition-colors">
                        Destinations
                     </a>
 
-                    <a href="#about" className="text-chili-300 hover:text-mindaro transition-colors">
+                    <a href="/about" className="text-chili-300 hover:text-mindaro transition-colors">
                         About
                     </a>
 
-                    <a href="#booking" className="text-chili-300 hover:text-mindaro transition-colors">
+                    <a href="/booking" className="text-chili-300 hover:text-mindaro transition-colors">
                        Bookings
                     </a>
 
-                    <a href="#contact" className="text-chili-300 hover:text-mindaro transition-colors">
+                    <a href="/contact" className="text-chili-300 hover:text-mindaro transition-colors">
                          Contact
                     </a>
                     

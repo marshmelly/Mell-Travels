@@ -1,5 +1,4 @@
 import Safari from '../Images/Safari.jpeg'
-import Peacock from '../Images/Peacock.jpeg'
 import hero from '../Images/hero.jpeg'
 import LA from '../Images/Los Angeles.jpeg'
 import Paris from '../Images/Paris.jpeg'
@@ -186,8 +185,8 @@ export const Home = () => {
 
       <div
        className="grid grid-cols-1 md:grid-cols-2 gap-2 h-[90vh] bg-cover bg-center flex items-center justify-center mt-16"
-       style={{backgroundImage: `url(${Peacock})`}}>
-        <h2 className="text-white font-bold md:text-7xl py-3">
+      >
+        <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-amber-600 bg-clip-text text-transparent leading-right md:text-7xl py-3 px-6">
           SUbscribe to our Newsletter
         </h2>
 
