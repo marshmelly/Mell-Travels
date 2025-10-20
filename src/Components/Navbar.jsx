@@ -24,7 +24,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
 
                  <div className="hidden md:flex items-center space-x-6">
 
-                    <a href="#home" className="text-chili-300 hover:text-mindaro transition-colors">
+                    <a href="/home" className="text-chili-300 hover:text-mindaro transition-colors">
                         Home
                     </a>
 
