@@ -3,9 +3,11 @@ import { LoadingScreen } from './Components/LoadingScreen'
 import './index.css'
 import { Navbar } from './Components/Navbar';
 import { MobileMenu } from './Components/MobileMenu';
+import { BookingForm } from './Components/Sections/BookingForm';
 import { Home } from './Components/Sections/Home';
 import { Destinations } from './Components/Sections/Destinations';
 import { Contact } from './Components/Sections/Contact';
+import { DestinationDetails } from './Components/Sections/DestinationDetails';
 import { Footer } from './Components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -34,6 +36,8 @@ function App() {
         <Route path='/' element={<Home /> } />
         <Route path='/contact' element={<Contact />} />
         <Route path='/destination' element={<Destinations />} />
+        <Route path='/destinationDetails' element={<DestinationDetails />} />
+        <Route path='/booking' element={ <BookingForm />} />
       </Routes>
 
       <Footer />
