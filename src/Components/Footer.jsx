@@ -23,16 +23,16 @@ export const Footer = () => {
 
           <ul className="space-y-3">
             <li>
-              <a href="" className="hover:text-orange">Destinations</a>
+              <a href="/destinations" className="hover:text-gray">Destinations</a>
             </li>
              <li>
-              <a href="" className="hover:text-orange">Services</a>
+              <a href="booking" className="hover:text-orange">Bookings</a>
             </li>
              <li>
-              <a href="" className="hover:text-orange">About Us</a>
+              <a href="/about" className="hover:text-orange">About Us</a>
             </li>
              <li>
-              <a href="" className="hover:text-orange">Contact</a>
+              <a href="/contact" className="hover:text-orange">Contact</a>
             </li>
           </ul>
         </div>

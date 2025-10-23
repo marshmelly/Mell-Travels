@@ -82,18 +82,18 @@ export const Home = () => {
     <section id="home" className="min-h-screen flex flex-col items-center justify-center relative">
       {/* Hero section */}
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-4 h-[90vh] bg-cover bg-center flex items-center justify-center"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-4 h-[90vh] bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: `url(${hero})` }}
       >
         <div className="text-center z-50 px-4">
-          <h1 className="text-xl text-white/90 md:text-6xl font-bold">
+          <h1 className="text-xl text-white/90 sm:text-6xl font-bold">
             Ready to Explore the world
           </h1>
         </div>
 
         <div className="flex justify-center space-x-5">
           <a
-            href="#destinations"
+            href="/destination"
             className="border border-black-400/70 text-white py-3 px-6 rounded font-medium transition-all overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_0_15px_rgba(255,255,255,0.2)]"
           >
             View Destinations
@@ -171,22 +171,22 @@ export const Home = () => {
 
       {/* Safari section */}
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-2 h-[90vh] bg-cover bg-center flex items-center justify-center mt-16"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-2 h-[90vh] bg-cover bg-center flex items-center justify-center mt-16"
         style={{ backgroundImage: `url(${Safari})` }}
       >
-        <h2 className="text-black font-bold md:text-7xl py-3">
+        <h2 className="text-black font-bold sm:text-7xl py-3">
           Enjoy a Sunset With the Wild
         </h2>
 
-        <p className="text-black font-bold md:text-7xl py-3">
+        <p className="text-black font-bold sm:text-7xl py-3">
           With Some Of Our Finest Destinations
         </p>
       </div>
 
       <div
-       className="grid grid-cols-1 md:grid-cols-2 gap-2 h-[90vh] bg-cover bg-center flex items-center justify-center mt-16"
+       className="grid grid-cols-1 sm:grid-cols-2 gap-2 h-[90vh] bg-cover bg-center flex items-center justify-center mt-16"
       >
-        <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-amber-600 bg-clip-text text-transparent leading-right md:text-7xl py-3 px-6">
+        <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-amber-600 bg-clip-text text-transparent leading-right sm:text-7xl py-3 px-6">
           SUbscribe to our Newsletter
         </h2>
 

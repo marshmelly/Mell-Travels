@@ -10,6 +10,7 @@ import { Contact } from './Components/Sections/Contact';
 import { DestinationDetails } from './Components/Sections/DestinationDetails';
 import { Footer } from './Components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { About } from './Components/Sections/About';
 
 function App() {
   
@@ -34,10 +35,12 @@ function App() {
 
        <Routes>
         <Route path='/' element={<Home /> } />
+        <Route path='/home' element={<Home /> } />
         <Route path='/contact' element={<Contact />} />
         <Route path='/destination' element={<Destinations />} />
         <Route path='/destinationDetails' element={<DestinationDetails />} />
         <Route path='/booking' element={ <BookingForm />} />
+        <Route path='/about' element={ <About />} />
       </Routes>
 
       <Footer />

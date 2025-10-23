@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // Local images
-import Beach from "../Images/Beach.jpeg";
+
 import Tokyo from "../Images/Tokyo.jpg";
 import Rome from "../Images/ROme.jpg";
 import Mombasa from "../Images/Mombasa.jpg";
@@ -151,6 +151,30 @@ export const Destinations = () => {
             </div>
           ))}
         </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="p-6 rounded-xl border border-black/30 hover:-translate-y-1 hover:border-orange-500/60
+                        hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+            <h2 className="text-2xl font-bold mb-4 text-gray-900">Why Travel With Us?</h2>
+            <ul className="">
+              <li className="mb-2 text-gray-700">Expertly curated travel experiences.</li>
+              <li className="mb-2 text-gray-700">Personalized itineraries to suit your preferences.</li>
+              <li className="mb-2 text-gray-700">24/7 customer support during your trip.</li>
+            </ul>
+                        </div>
+
+       <div className="p-6 rounded-xl border border-black/30 hover:-translate-y-1 hover:border-orange-500/60
+                        hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
+            <h2 className="text-2xl font-bold mb-4 text-gray-900">Where to go in 2026?</h2>
+            <ul className="">
+              <li className="mb-2 text-gray-700">Explore our sandy beaches in Mombasa and Maldives.</li>
+              <li className="mb-2 text-gray-700">Personalized itineraries to suit your preferences.</li>
+              <li className="mb-2 text-gray-700">24/7 customer support during your trip.</li>
+            </ul>
+        </div>
+
+     <br />
+      </div>
       </section>
 
       {/* POPUP MODAL */}
