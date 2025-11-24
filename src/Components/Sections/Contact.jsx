@@ -32,7 +32,7 @@ export const Contact = () => {
       className="bg-gray-50 py-16 px-6 lg:px-20 flex flex-col lg:flex-row gap-12 items-start justify-center"
     >
       {/* Info Section */}
-      <div className="lg:w-1/2 space-y-6">
+      <div className="lg:w-1/2 space-y-6"><br /><br /><br />
         <h2 className="text-4xl font-bold text-gray-800">Get in Touch</h2>
         <p className="text-gray-600 leading-relaxed">
           We’d love to hear from you! Whether you have questions about destinations, 

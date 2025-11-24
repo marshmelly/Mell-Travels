@@ -23,48 +23,72 @@ const destinationsCards = [
     image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
     description: "The city of lights and love, known for the Eiffel Tower and romantic charm.",
     highlights: ["Eiffel Tower", "Louvre Museum", "Seine River"],
+    price: 1500,
+    hotel: "Hotel Le Parisien",
+    stay: "4 nights / 5 days",
   },
   {
     name: "Rome, Italy",
     image: Rome,
     description: "The eternal city with ancient ruins and stunning architecture.",
     highlights: ["Colosseum", "Trevi Fountain", "Vatican City"],
+    price: 1300,
+    hotel: "Rome Imperial Suites",
+    stay: "5 nights / 6 days",
   },
   {
     name: "Nairobi, Kenya",
     image: Nairobi,
     description: "A vibrant city blending modern life with nature and wildlife.",
     highlights: ["Nairobi National Park", "Karen Blixen Museum", "Giraffe Centre"],
+    price: 900,
+    hotel: "Nairobi Safari Lodge",
+    stay: "3 nights / 4 days",
   },
   {
     name: "Sydney, Australia",
     image: Sydney,
     description: "A harbor city famous for the Sydney Opera House and beaches.",
     highlights: ["Bondi Beach", "Harbour Bridge", "Darling Harbour"],
+    price: 1800,
+    hotel: "Sydney Harbour View Hotel",
+    stay: "6 nights / 7 days",
   },
   {
     name: "Maldives",
     image: Maldives,
     description: "A tropical paradise with clear waters, coral reefs, and luxury resorts.",
     highlights: ["Snorkeling", "Water villas", "Sunset cruises"],
+    price: 2500,
+    hotel: "Ocean Blue Resort",
+    stay: "4 nights / 5 days",
   },
   {
     name: "Los Angeles, USA",
     image: La,
     description: "The entertainment capital with Hollywood glam and sunny beaches.",
     highlights: ["Hollywood", "Santa Monica", "Beverly Hills"],
+    price: 1700,
+    hotel: "LA Grand Palace Hotel",
+    stay: "5 nights / 6 days",
   },
   {
     name: "Tokyo, Japan",
     image: Tokyo,
     description: "A bustling metropolis blending tradition with cutting-edge technology.",
     highlights: ["Shibuya Crossing", "Tokyo Tower", "Temples"],
+    price: 2000,
+    hotel: "Tokyo Techno Hotel",
+    stay: "6 nights / 7 days",
   },
   {
     name: "Mombasa, Kenya",
     image: Mombasa,
     description: "Historic coastal city with white-sand beaches and rich Swahili culture.",
     highlights: ["Fort Jesus", "Nyali Beach", "Old Town"],
+    price: 800,
+    hotel: "Mombasa Seaside Resort",
+    stay: "3 nights / 4 days",
   },
 ];
 
@@ -82,7 +106,7 @@ export const Destinations = () => {
 
   const handleBooking = () => {
     handleClose();
-    navigate("/booking"); // redirect to booking section or route
+    navigate("/booking", { state: selectedCity}); // redirect to booking section or route
   };
 
   return (
