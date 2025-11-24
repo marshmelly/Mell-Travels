@@ -1,7 +1,7 @@
 import hero from "../Images/About2.jpg";
-import travel1 from "../Images/travel1.jpg";
-import travel2 from "../Images/travel2.jpg";
-import travel3 from "../Images/travel3.jpg";
+import travel1 from "../Images/Travel1.jpg";
+import travel2 from "../Images/Travel2.jpg";
+import travel3 from "../Images/Travel3.jpg";
 
 export const About = () => {
   return (
